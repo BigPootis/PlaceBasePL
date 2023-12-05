@@ -6,15 +6,15 @@
 
 <ul class="buti">
     <ul>
-        <li> <a class="active" href="{% url 'home' %}"> Главная страница </a></li>
+        <li> <a href="{% url 'home' %}"> Главная страница </a></li>
         <li> <a href=""> Аренда </a> </li>
         <li> <a href=""> Работа</a> </li>
-        <li> <a href=" {% url 'events'%}"> События</a> </li>
+        <li> <a class="active" href=""> События</a> </li>
         <li class="zhopa"> <a  href=" {% url 'log' %}"><i class="fas fa-user"></i></a></li>
     </ul>
 </ul>
 
+<p>{{event}}</p>
 
-
-{%include 'main/test.html'%}
+{%include 'events/templatenews.html'%}
 {% endblock%}

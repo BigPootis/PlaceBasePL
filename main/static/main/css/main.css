@@ -40,6 +40,7 @@ ul {
 
 li {
     float: left;
+    transition: all .6s ease;
 }
 
 li a {
@@ -48,6 +49,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all .6s ease;
   }
 
 li a:hover {
@@ -56,6 +58,9 @@ li a:hover {
   
   .active {
     background-color: #EE9B01;
+  }
+  .active:hover {
+    background-color: #ffbb00;
   }
 
   .buti{
@@ -70,8 +75,4 @@ li a:hover {
   .zhopa{
     float: inline-end;
     background-color: #EE9B01;
-  }
-
-  .active_log {
-    float: inline-end;
   }
