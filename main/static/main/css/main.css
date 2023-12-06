@@ -74,5 +74,29 @@ li a:hover {
   }
   .zhopa{
     float: inline-end;
-    background-color: #EE9B01;
+    background-color:#222 ;
+  }
+  .zhopa-active{
+    float: inline-end;
+    background-color:#EE9B01;
+    transition: all  0.6s ease;
+  }
+  .zhopa-active:hover{
+    float: inline-end;
+    background-color:#ffbb00;
+  }
+
+
+ .news {
+    background: #dae2e1;
+    border-radius: 30px;
+    width: 45%;
+  }
+  .newstitle {
+    margin-left: 5%;
+    font-size: 40px;
+    
+  }
+  .newsanons {
+    margin-left: 2.5%;
   }
